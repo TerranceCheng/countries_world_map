@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+/*
 class SMapUnitedStatesColors {
   /// Alaska
   final Color? usAK;
@@ -318,7 +318,7 @@ class SMapUnitedStatesColors {
     );
   }
 }
-
+*/
 class SMapUnitedStates {
   static const String instructions =
     print("Hey");
