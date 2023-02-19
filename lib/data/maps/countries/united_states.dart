@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class SMapUnitedStatesColors {
   /// Alaska
-  final Color? usAK;
+  //final Color? usAK;
 
   /// Alabama
   final Color? usAL;
