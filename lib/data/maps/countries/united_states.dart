@@ -321,5 +321,5 @@ class SMapUnitedStatesColors {
 */
 class SMapUnitedStates {
   static const String instructions = "";
-      """{"n": "UnitedStates", "w": 1047.4686, "h": 752.55493, "g": {"a": "0,0","b": "0,0"}} """;
+      """{"n": "UnitedStates", "w": 1047.4686, "h": 752.55493} """;
   }
