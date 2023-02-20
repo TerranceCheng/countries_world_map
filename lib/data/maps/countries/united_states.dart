@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
-class SMapUnitedStates {
-  void displayText() {
+void sMapUnitedStates() {
     Scaffold(
       appBar: AppBar(
         title: const Text('Popup Menu Example - FlutterCorner'),
@@ -16,5 +15,4 @@ class SMapUnitedStates {
         ),
       ),
     );
-  }
 }
