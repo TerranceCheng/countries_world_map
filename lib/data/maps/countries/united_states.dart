@@ -1,4 +1,3 @@
-import 'package:confetti/confetti.dart';
 import 'package:flutter/material.dart';
 
 class SMapUnitedStatesColors {
@@ -322,29 +321,5 @@ class SMapUnitedStatesColors {
 
 class SMapUnitedStates {
   static const String instructions =
-      """{"n": "UnitedStates", "w": 1047.4686, "h": 752.55493, "g": {"a": "0,0","b": "0,0"}, "i":[{"n": "United States\n\nThe United States is a country located in North America bordering the Atlantic Ocean and Pacific Ocean. Neighboring countries are Canada and Mexico. The geography of the United States is varied with mountains in the west, a broad central plain, and low mountains in the east."]} """;
-}
-
-final _controller = ConfettiController();
-
-void displayText() {
-  Stack(
-    children: [
-      Scaffold(
-        appBar: AppBar(),
-        body: Center(
-          child: MaterialButton(
-            onPressed: () {
-              if (true) {
-                _controller.play();
-              }
-            },
-          ),
-        ),
-      ),
-      ConfettiWidget(
-        confettiController: _controller,
-      ),
-    ],
-  );
+      """{"n": "UnitedStates", "w": 1047.4686, "h": 752.55493, "g": {"a": "0,0","b": "0,0"}, "i":[{"n": "United States\nThe United States is a country located in North America bordering the Atlantic Ocean and Pacific Ocean. Neighboring countries are Canada and Mexico. The geography of the United States is varied with mountains in the west, a broad central plain, and low mountains in the east."]} """;
 }
