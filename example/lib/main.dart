@@ -12,9 +12,9 @@ class SMapExampleApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Worldmap Example',
+        title: 'GeoLocate',
         theme: ThemeData(
-            primarySwatch: Colors.blue,
+            primarySwatch: Color.fromARGB(255, 0, 0, 82),
             visualDensity: VisualDensity.adaptivePlatformDensity),
         home: MyHomePage());
   }
@@ -47,7 +47,6 @@ class _MyHomePageState extends State<MyHomePage>
             elevation: 0,
             bottom: TabBar(controller: controller, tabs: [
               ListTile(title: Center(child: Text('Supported countries'))),
-              ListTile(title: Center(child: Text('Random colors'))),
               // ListTile(title: Center(child: Text('Africa'))),
             ])),
         body: Container(
@@ -58,7 +57,6 @@ class _MyHomePageState extends State<MyHomePage>
               controller: controller,
               children: [
                 SupportedCountriesMap(),
-                RandomWorldMapGenrator(),
                 // AfricaContinent()
               ]),
         ));
