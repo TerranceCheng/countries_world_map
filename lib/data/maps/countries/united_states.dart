@@ -208,8 +208,8 @@ class SMapUnitedStatesColors {
   });
   Map<String, Color?> toMap() {
     return {
-      "US-AK": usAK,
-      "US-AL": usAL,
+      "United States": usAK,
+      "The United States is a country located in North America bordering the Atlantic Ocean and Pacific Ocean. Neighboring countries are Canada and Mexico. The geography of the United States is varied with mountains in the west, a broad central plain, and low mountains in the east. ": usAL,
       "US-AR": usAR,
       "US-AZ": usAZ,
       "US-CA": usCA,
